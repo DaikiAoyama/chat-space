@@ -28,14 +28,14 @@
 
 |Column|Type|Options|
 |------|----|-------|
-|body|text|null: false|
+|body|text||
 |image|string||
 |group_id|integer||
 |user_id|integer||
 
 ### Association
-- belongs_to :groups
-- belongs_to :users
+- belongs_to :group
+- belongs_to :user
 
 
 ## groups_usersテーブル
