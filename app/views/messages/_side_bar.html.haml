@@ -1,0 +1,26 @@
+.chat-side
+  .side-header
+    .side-header__user-box
+      .side-header__user-box__name
+        DaikiAoyama
+      .side-header__user-box__icon
+        = link_to "#", class: "side-header__user-box__icon--edit" do
+          = icon('fas', 'edit')
+        = link_to "#", class: "side-header__user-box__icon--cog" do
+          = icon('fas', 'cog')
+  .groups
+    .group
+      .group__name
+        Expert
+      .group__latest-message
+        まだメッセージはありません
+    .group
+      .group__name
+        Camp
+      .group__latest-message
+        まだメッセージはありません
+    .group
+      .group__name
+        Master
+      .group__latest-message
+        まだメッセージはありません
