@@ -30,8 +30,8 @@
   .form
     %form.new-message
       .new-message__input-box
-        %input.new-message__input-box--text{:placeholder => "type a message", :type => "text"}
+        %input.new-message__input-box--text{placeholder: "type a message", type: "text"}
         %label{class: "new-message__input-box--image"}
           = icon('fas', 'image')
           %input{type: "file", class: "new-message__input-box--file"}
-      %input.new-message__submit-btn{:type => "submit", :value => "Send"}
+      %input.new-message__submit-btn{type: "submit", value: "Send"}
