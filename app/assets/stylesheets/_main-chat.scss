@@ -21,6 +21,9 @@
               color: #999999;
               display: flex;
               list-style: none;
+                &__member {
+                  margin-right: 4.5px;
+                }
             }
         }
         &__edit-btn {
@@ -69,22 +72,22 @@
       height: 90px;
       background-color: #d2d2d2;
       padding: 20px 40px;
-        .new-message {
+        .new_message {
           display: flex;
           justify-content: space-between;
             &__input-box {
               width: 100%;
-              position: relative;
                 &--text {
                   height: 50px;
                   width: 100%;
                   border-style: none;
                   padding: 0 40px 0 10px;
+                  position: relative;
                 }
                 &--image {
                   font-size: 1.3rem;
                   position: absolute;
-                  right: 10px;
+                  right: 55px;
                   bottom: 10px;
                 }
                 &--file {
