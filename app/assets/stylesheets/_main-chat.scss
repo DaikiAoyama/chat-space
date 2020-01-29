@@ -76,6 +76,7 @@
         .new_message {
           display: flex;
           justify-content: space-between;
+          position: relative;
             &__input-box {
               width: 100%;
                 &--text {
@@ -83,13 +84,12 @@
                   width: 100%;
                   border-style: none;
                   padding: 0 40px 0 10px;
-                  position: relative;
                 }
                 &--image {
                   font-size: 1.3rem;
                   position: absolute;
-                  right: 55px;
-                  bottom: 10px;
+                  right: 40px;
+                  top: 5px;
                 }
                 &--file {
                   display: none;
